@@ -78,9 +78,6 @@ func getCustomers(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "Customer ID: "+request.Customers.Customer[i].CustomerID)
 		fmt.Fprintln(w, "Company Name : "+request.Customers.Customer[i].CompanyName)
 	}
-	//Tugas insert kan ke table Customer
-
-	//Tugas insert kan ke table Order
 
 }
 
